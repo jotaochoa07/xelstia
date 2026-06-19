@@ -1,0 +1,33 @@
+# Entornos virtuales y dependencias
+.venv/
+venv/
+ENV/
+
+# Cache y compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Variables de entorno y credenciales (CRÍTICO)
+.env
+.env.*
+*.pem
+*.key
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
